@@ -19,6 +19,30 @@ Appy connects campaign links to the right app experience, and helps teams measur
 | Flutter · Dart | [appy-flutter](https://github.com/appy-to/appy-flutter) | [Quickstart](https://github.com/appy-to/appy-flutter/blob/main/QUICKSTART.md) | 1.0.0 · [pub.dev](https://pub.dev/packages/appy_sdk) |
 | React Native · Expo | [react-native-appy](https://github.com/appy-to/react-native-appy) | [Quickstart](https://github.com/appy-to/react-native-appy/blob/main/QUICKSTART.md) | 1.0.0 · [npm](https://www.npmjs.com/package/react-native-appy) |
 
+### Install
+
+**iOS / Swift Package Manager:** in Xcode, choose **File → Add Package Dependencies…**, enter `https://github.com/appy-to/appy-ios-sdk.git` and select **Up to Next Major Version** from `1.0.0`.
+
+**Android / Gradle:** include `google()` and `mavenCentral()` in your dependency repositories, then add to your app module:
+
+```kotlin
+implementation("to.appy:appy-sdk:1.0.0")
+```
+
+**Flutter:**
+
+```sh
+flutter pub add appy_sdk
+```
+
+**React Native / Expo:**
+
+```sh
+npx expo install react-native-appy
+```
+
+The Flutter and React Native packages resolve the public native SDKs automatically. React Native apps require Expo modules and a development build. Follow your platform's quickstart to configure app links and initialize the SDK.
+
 ### Get started
 
 1. Open **Apps & SDK** in the Appy dashboard and register your own app.
