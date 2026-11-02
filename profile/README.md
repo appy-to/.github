@@ -5,40 +5,37 @@
 <p align="center">
   <a href="https://appy.to">Website</a> ·
   <a href="https://appy.to/docs">Documentation</a> ·
-  <a href="https://appy.to/docs/sdk">SDKs</a> ·
   <a href="mailto:support@appy.to">Contact</a>
 </p>
 
-Appy helps app teams connect campaign links to app experiences and measure the installs, events and revenue that follow.
+Appy connects campaign links to the right app experience, and helps teams measure the installs, in-app events and revenue that follow. Build with smart links, dynamic QR codes and mobile SDKs.
 
-Use smart links, dynamic QR codes and branded domains across creator campaigns, email, SMS and the web. Send people to the right app store or website, open the right screen when the app is installed, and preserve link context through installation where supported.
+### Choose your SDK
 
-### Build with Appy
+| Platform | Repository | Start here | Availability |
+| --- | --- | --- | --- |
+| iOS · Swift | [appy-ios-sdk](https://github.com/appy-to/appy-ios-sdk) | [Quickstart](https://github.com/appy-to/appy-ios-sdk/blob/main/QUICKSTART.md) | 1.0.0 · Swift Package Manager |
+| Android · Kotlin / Java | [appy-android-sdk](https://github.com/appy-to/appy-android-sdk) | [Quickstart](https://github.com/appy-to/appy-android-sdk/blob/main/QUICKSTART.md) | 1.0.0 · Downloadable AAR |
+| Flutter · Dart | [appy-flutter](https://github.com/appy-to/appy-flutter) | [Quickstart](https://github.com/appy-to/appy-flutter/blob/main/QUICKSTART.md) | Source preview |
+| React Native · Expo | [react-native-appy](https://github.com/appy-to/react-native-appy) | [Quickstart](https://github.com/appy-to/react-native-appy/blob/main/QUICKSTART.md) | Source preview |
 
-The SDK is a library for **your own app**; your app keeps its name and identifiers. Start in the Appy dashboard under **Apps & SDK → New app**, then copy **Publishable key** and **Link domain** from **SDK setup**. No terminal registration command is needed. [Which example values do I replace?](https://github.com/appy-to/appy-ios-sdk/blob/main/SETUP.md)
+### Get started
 
-| Platform | SDK | Start here |
-| --- | --- | --- |
-| iOS · Swift | [AppySDK](https://github.com/appy-to/appy-ios-sdk) | [Quickstart](https://github.com/appy-to/appy-ios-sdk/blob/main/QUICKSTART.md) |
-| Android · Kotlin / Java | [to.appy:appy-sdk](https://github.com/appy-to/appy-android-sdk) | [Quickstart](https://github.com/appy-to/appy-android-sdk/blob/main/QUICKSTART.md) |
-| Flutter · Dart | [appy_sdk](https://github.com/appy-to/appy-flutter) | [Quickstart](https://github.com/appy-to/appy-flutter/blob/main/QUICKSTART.md) |
-| React Native · Expo | [react-native-appy](https://github.com/appy-to/react-native-appy) | [Quickstart](https://github.com/appy-to/react-native-appy/blob/main/QUICKSTART.md) |
-| Other runtimes | HTTP endpoints | [Use the API](https://appy.to/docs/sdk/http) |
+1. Open **Apps & SDK** in the Appy dashboard and register your own app.
+2. Copy its **Publishable key** and **Link domain** from **SDK setup**.
+3. Follow your SDK's quickstart above, then test a link on your device.
 
-The iOS SDK installs directly from GitHub. Maven Central, pub.dev and npm distribution is being prepared; the other guides explain current onboarding and source setup. Appy SDK endpoints currently require an Enterprise plan. SDK source licensing and access to the hosted service are separate.
+Your app keeps its own name and identifiers; Appy is the library you add to it. [Understand the example values](https://github.com/appy-to/appy-ios-sdk/blob/main/SETUP.md).
 
-### Follow the journey
+### What you can build
 
-**Campaign or QR → Smart link → App or store → Install → In-app event → Revenue**
+- Open the right screen from campaigns, QR codes, email and social links.
+- Recover link context after installation where a supported match is available.
+- Connect installs, in-app events and revenue to acquisition campaigns.
+- Integrate backend workflows through the [REST API](https://api.appy.to/docs) or [use the link API without an SDK](https://appy.to/docs/sdk/http).
 
-- **Deep linking:** Universal Links and Android App Links that carry your campaign context into the app.
-- **Deferred deep linking:** recover the link after installation when a supported match is available.
-- **Install attribution:** understand which Appy links and supported attribution sources brought installs.
-- **Events and revenue:** connect in-app activity to acquisition campaigns, with server-side events for backend workflows.
-- **Developer tools:** native SDKs, Flutter and React Native wrappers, REST API and an MCP server.
+### Support and availability
 
-### Small clients, clear controls
+SDK source is MIT-licensed. Hosted SDK features require an Appy Enterprise plan. npm, pub.dev and Maven Central distribution is being prepared; each SDK page describes its current installation path.
 
-The native SDKs handle link delivery, install attribution and queued events. Tracking controls and platform data-disclosure guidance are documented for each integration. Configure consent and data collection for your app's requirements.
-
-Explore [Appy.to](https://appy.to) or read the [developer documentation](https://appy.to/docs).
+For integration questions, read the selected SDK guide, open an issue in its repository, or email [support@appy.to](mailto:support@appy.to).
