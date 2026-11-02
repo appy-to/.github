@@ -15,9 +15,9 @@ Appy connects campaign links to the right app experience, and helps teams measur
 | Platform | Repository | Start here | Availability |
 | --- | --- | --- | --- |
 | iOS · Swift | [appy-ios-sdk](https://github.com/appy-to/appy-ios-sdk) | [Quickstart](https://github.com/appy-to/appy-ios-sdk/blob/main/QUICKSTART.md) | 1.0.0 · Swift Package Manager |
-| Android · Kotlin / Java | [appy-android-sdk](https://github.com/appy-to/appy-android-sdk) | [Quickstart](https://github.com/appy-to/appy-android-sdk/blob/main/QUICKSTART.md) | 1.0.0 · Downloadable AAR |
-| Flutter · Dart | [appy-flutter](https://github.com/appy-to/appy-flutter) | [Quickstart](https://github.com/appy-to/appy-flutter/blob/main/QUICKSTART.md) | Source preview |
-| React Native · Expo | [react-native-appy](https://github.com/appy-to/react-native-appy) | [Quickstart](https://github.com/appy-to/react-native-appy/blob/main/QUICKSTART.md) | Source preview |
+| Android · Kotlin / Java | [appy-android-sdk](https://github.com/appy-to/appy-android-sdk) | [Quickstart](https://github.com/appy-to/appy-android-sdk/blob/main/QUICKSTART.md) | 1.0.0 · [Maven Central](https://central.sonatype.com/artifact/to.appy/appy-sdk/1.0.0) |
+| Flutter · Dart | [appy-flutter](https://github.com/appy-to/appy-flutter) | [Quickstart](https://github.com/appy-to/appy-flutter/blob/main/QUICKSTART.md) | 1.0.0 · [pub.dev](https://pub.dev/packages/appy_sdk) |
+| React Native · Expo | [react-native-appy](https://github.com/appy-to/react-native-appy) | [Quickstart](https://github.com/appy-to/react-native-appy/blob/main/QUICKSTART.md) | 1.0.0 · [npm](https://www.npmjs.com/package/react-native-appy) |
 
 ### Get started
 
@@ -36,6 +36,6 @@ Your app keeps its own name and identifiers; Appy is the library you add to it. 
 
 ### Support and availability
 
-SDK source is MIT-licensed. Hosted SDK features require an Appy Enterprise plan. npm, pub.dev and Maven Central distribution is being prepared; each SDK page describes its current installation path.
+SDK source is MIT-licensed. Hosted SDK features require an Appy Enterprise plan. All four SDKs are available at version 1.0.0 through Swift Package Manager, Maven Central, pub.dev and npm. Follow the quickstart for your platform.
 
 For integration questions, read the selected SDK guide, open an issue in its repository, or email [support@appy.to](mailto:support@appy.to).
