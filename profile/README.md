@@ -15,12 +15,14 @@ Use smart links, dynamic QR codes and branded domains across creator campaigns, 
 
 ### Build with Appy
 
+The SDK is a library for **your own app**; your app keeps its name and identifiers. Start in the Appy dashboard under **Apps & SDK → New app**, then copy **Publishable key** and **Link domain** from **SDK setup**. No terminal registration command is needed. [Which example values do I replace?](https://github.com/appy-to/appy-ios-sdk/blob/main/SETUP.md)
+
 | Platform | SDK | Start here |
 | --- | --- | --- |
 | iOS · Swift | [AppySDK](https://github.com/appy-to/appy-ios-sdk) | [Quickstart](https://github.com/appy-to/appy-ios-sdk/blob/main/QUICKSTART.md) |
 | Android · Kotlin / Java | [to.appy:appy-sdk](https://github.com/appy-to/appy-android-sdk) | [Quickstart](https://github.com/appy-to/appy-android-sdk/blob/main/QUICKSTART.md) |
-| Flutter · Dart | [appy_sdk](https://github.com/appy-to/appy-flutter) | [Source setup](https://github.com/appy-to/appy-flutter/blob/main/SOURCE_SETUP.md) |
-| React Native · Expo | [react-native-appy](https://github.com/appy-to/react-native-appy) | [Source setup](https://github.com/appy-to/react-native-appy/blob/main/SOURCE_SETUP.md) |
+| Flutter · Dart | [appy_sdk](https://github.com/appy-to/appy-flutter) | [Quickstart](https://github.com/appy-to/appy-flutter/blob/main/QUICKSTART.md) |
+| React Native · Expo | [react-native-appy](https://github.com/appy-to/react-native-appy) | [Quickstart](https://github.com/appy-to/react-native-appy/blob/main/QUICKSTART.md) |
 | Other runtimes | HTTP endpoints | [Use the API](https://appy.to/docs/sdk/http) |
 
 The iOS SDK installs directly from GitHub. Maven Central, pub.dev and npm distribution is being prepared; the other guides explain current onboarding and source setup. Appy SDK endpoints currently require an Enterprise plan. SDK source licensing and access to the hosted service are separate.
